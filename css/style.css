@@ -4704,7 +4704,7 @@ a.close.disabled {
   padding: 0.25rem 0.75rem;
   color: #6c757d;
   background-color: rgba(255, 255, 255, 0.85);
-  background-clip: padding-box;`
+  background-clip: padding-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
 
 .toast-body {
@@ -6492,15 +6492,15 @@ button.bg-dark:focus {
 
 .shadow-sm {
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
+  box-shadow: 0 0.125rem 0.25rem rgb(56,176,160) !important; }
 
 .shadow {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.5rem 1rem rgb(56,176,160) !important; }
 
 .shadow-lg {
   -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; }
+  box-shadow: 0 1rem 3rem rgb(56,176,160) !important; }
 
 .shadow-none {
   -webkit-box-shadow: none !important;
@@ -9758,15 +9758,22 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 .projects{
-  height: 200px;
+  height: 250px;
   width: 100%;
 }
+
 .typescript{
   height: 60px;
+  width: 80px;
+  /* margin-left: 50px; */
 }
 .logos1{
-  height: 70px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
 }
 .logos{
-  height: 55px;
+  width: 50px;
+  height: 45px;
+  cursor: pointer;
 }

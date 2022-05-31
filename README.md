@@ -1,5 +1,2 @@
-# soumitha18.github.io
+# My Portfolio
 
-Personal Static Website
-
-[soumitha](https://soumitha18.github.io/)

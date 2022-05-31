@@ -38,7 +38,7 @@
 	loader();
 
 	// Scrollax
-   $.Scrollax();
+//    $.Scrollax();
 
 
 
@@ -439,4 +439,27 @@ $(function() {
   }
 
 });
+
+
+// functions for github libks and netlify links
+
+const project1=()=>{
+	window.location.href="https://github.com/chaitu786/unit_2_nikaa"
+}
+const project2=()=>{
+	window.location.href="https://github.com/chaitu786/Zoom_car.Com"
+}
+const project3=()=>{
+	window.location.href="https://github.com/mayur-ms-2310/Himalayausa-clone/tree/main/Himalayausa_Clone_Project"
+}
+
+const netlify1=()=>{
+	window.location.href="https://pensive-volhard-df8325.netlify.app/"
+}
+const netlify2=()=>{
+	window.location.href="https://papaya-marshmallow-80e2a7.netlify.app/"
+}
+const netlify3=()=>{
+	window.location.href=("https://courageous-panda-a97c46.netlify.app/")
+}
 
