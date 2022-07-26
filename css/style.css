@@ -406,7 +406,8 @@
   
   .img-fluid {
     max-width: 100%;
-    height: auto; }
+    height: auto; 
+  }
   
   .img-thumbnail {
     padding: 0.25rem;
