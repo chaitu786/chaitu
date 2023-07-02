@@ -6494,15 +6494,18 @@
   
   .shadow-sm {
     -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-    box-shadow: 0 0.125rem 0.25rem rgb(56,176,160) !important; }
+    /* box-shadow: 0 0.125rem 0.25rem rgb(56,176,160) !important;  */
+  }
   
   .shadow {
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.075) !important;
-    box-shadow: 0 0.5rem 1rem rgb(56,176,160) !important; }
+    /* box-shadow: 0 0.5rem 1rem rgb(56,176,160) !important;  */
+  }
   
   .shadow-lg {
     -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-    box-shadow: 0 1rem 3rem rgb(56,176,160) !important; }
+    /* box-shadow: 0 1rem 3rem rgb(56,176,160) !important;  */
+  }
   
   .shadow-none {
     -webkit-box-shadow: none !important;
@@ -8833,6 +8836,7 @@
     margin-bottom: 40px;
     padding: 2em;
     background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
     width: 100%; }
     .services-1 .icon {
       display: block;
@@ -8878,7 +8882,11 @@
       color: #6ec5b8;
     }
     .services-1:hover {
-      background: #FFAC00; }
+      box-shadow: 0 0.5rem 1rem rgb(56,176,160) !important;
+       background: #91ABA8;
+       border-radius: 10px;
+      /* background: #FFAC00; */
+     }
       .services-1:hover .icon i {
         color: #fff; }
       .services-1:hover h3 {
