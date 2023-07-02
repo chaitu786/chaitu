@@ -8836,7 +8836,7 @@
     margin-bottom: 40px;
     padding: 2em;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
+    border-radius: 20px !important;
     width: 100%; }
     .services-1 .icon {
       display: block;
@@ -8884,7 +8884,7 @@
     .services-1:hover {
       box-shadow: 0 0.5rem 1rem rgb(56,176,160) !important;
        background: #91ABA8;
-       border-radius: 10px;
+       border-radius: 20px;
       /* background: #FFAC00; */
      }
       .services-1:hover .icon i {
